@@ -84,15 +84,6 @@ Projeto desenvolvido para praticar conceitos de **desenvolvimento Front-end**, c
 
 ---
 
-## 📊 GitHub
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SEU_USUARIO&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
 ## 📫 Contato
 
 <p align="left">
