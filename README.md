@@ -1,4 +1,4 @@
-# 👋 Olá, eu sou Luan Batista!
+# 👋 Olá, eu sou Luan Vieira!
 
 🎓 Estudante de **Ciência da Computação**
 💻 Desenvolvedor em formação | 🚀 Tecnologia, Desenvolvimento Web e IA
@@ -96,11 +96,8 @@ Projeto desenvolvido para praticar conceitos de **desenvolvimento Front-end**, c
 ## 📫 Contato
 
 <p align="left">
-  <a href="https://www.linkedin.com/">
+  <a href="https://www.linkedin.com/in/luuanvieira/">
     <img src="https://skillicons.dev/icons?i=linkedin" />
-  </a>
-  <a href="https://github.com/">
-    <img src="https://skillicons.dev/icons?i=github" />
   </a>
 </p>
 
