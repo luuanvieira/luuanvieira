@@ -41,10 +41,6 @@ Serviço que movimenta carteiras de jogadores a partir de operações de provedo
 
 Gestão de produtos e estoque de uma loja de artigos de pesca: modelagem no MongoDB, back-end em Python com CRUD completo e dashboard no Power BI com estoque, demanda, mais vendidos e evolução das vendas.
 
-### 🤖 [Atendimento com IA para Estúdio de Tatuagem](https://github.com/luuanvieira/chatbot-frontend)
-`Angular` `TypeScript` `Python` `OpenAI API` · *projeto em grupo*
-
-Chatbot que faz a triagem inicial dos clientes e indica o tatuador conforme a especialidade. Fui responsável pelo front-end em Angular e pela integração com o back-end e a API de IA.
 
 ### 🔤 [Analisador Léxico e Sintático: linguagem Elgol](https://github.com/leonunes58/analisador-lexico-sintatico)
 `Python` `PLY (Lex-Yacc)` · *projeto em grupo, Compiladores*
