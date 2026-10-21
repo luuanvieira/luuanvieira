@@ -1,126 +1,80 @@
-# 👋 Olá, eu sou Luan Vieira!
+<h1 align="center">Olá, eu sou o Luan Vieira 👋</h1>
 
-🎓 **Estudante de Ciência da Computação — 7º semestre**
-📊 **Dados • Python • SQL • Power BI • IA**
-💻 Desenvolvimento de Software • Banco de Dados • Automação
+<p align="center">
+  <b>Backend & Dados</b> · Go · Python · SQL · PostgreSQL · MongoDB · IA<br>
+  Estudante de Ciência da Computação (Universidade La Salle, 7º semestre) · Canoas/RS
+</p>
 
-Sou estudante de **Ciência da Computação** e tenho como foco profissional a área de **Dados, BI, Bancos de Dados, Inteligência Artificial e Automação**.
-
-Tenho experiência prática com **Python, SQL, bancos relacionais e NoSQL, Power BI, Databricks e desenvolvimento de aplicações**, além de experiência profissional em ambiente industrial, trabalhando com monitoramento de processos, SAP, Excel e tomada de decisão baseada em dados.
-
-Atualmente, busco transformar meus conhecimentos em projetos práticos e continuar evoluindo na área de tecnologia.
+<p align="center">
+  <a href="https://www.linkedin.com/in/SEU-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:SEU-EMAIL@exemplo.com"><img src="https://img.shields.io/badge/E--mail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail"></a>
+</p>
 
 ---
 
-## 🚀 Tecnologias
+## Sobre mim
 
-### 📊 Dados & BI
+Sou estudante de Ciência da Computação e trabalho com **desenvolvimento backend, bancos de dados e dados/IA**. Gosto de sistemas que precisam estar corretos: concorrência, consistência e integridade dos dados.
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=python,mysql,mongodb" />
-</p>
+Antes da tecnologia, trabalhei 6 anos na indústria (DuPont / IFF) como operador de processos, monitorando produção, usando SAP e tomando decisões com base em dados. Dessa experiência trouxe disciplina, atenção a processos e o hábito de investigar a causa dos problemas.
 
-**SQL • MySQL • Oracle • MongoDB • Power BI • Databricks • PySpark • Pandas • NumPy**
-
-### 🐍 Python & Desenvolvimento
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=python,fastapi" />
-</p>
-
-**Python • FastAPI • PyMongo • APIs REST • CRUD • Automação • Manipulação de Dados**
-
-### 💻 Desenvolvimento Web
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=js,ts,angular,html,css,bootstrap" />
-</p>
-
-**JavaScript • TypeScript • Angular • HTML • CSS • Bootstrap**
-
-### 🎮 Outras tecnologias
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=cs,unity,git,github,vscode" />
-</p>
-
-**C# • Unity • Git • GitHub • VS Code**
+**Busco minha primeira oportunidade como desenvolvedor (estágio ou júnior) em backend ou dados.**
 
 ---
 
-## 📌 Projetos em destaque
+## Projetos em destaque
+
+### 💰 [Wager Wallet](https://github.com/luuanvieira/wager-wallet): processamento distribuído de apostas em Go
+`Go` `Uber Fx` `PostgreSQL` `AWS SQS` `Keycloak (OIDC)` `Docker Compose`
+
+Serviço que movimenta carteiras de jogadores a partir de operações de provedores de jogos, recebidas por HTTP ou fila SQS, com as mesmas garantias nos dois canais.
+
+- Dinheiro em `int64` de centavos (sem ponto flutuante) e **ledger append-only** protegido por constraints e triggers
+- **Idempotência persistente** (chave + hash canônico) e inbox para mensagens repetidas
+- **Lock por carteira**, testado com 3 instâncias independentes disputando o mesmo saldo
+- **Transactional outbox** com publishers concorrentes e recuperação após crash
+- Autenticação OIDC com Keycloak e isolamento entre provedores
+- Testes de integração com infraestrutura real (sem mocks), `go test -race` e simulações de falha
 
 ### 📦 Sistema de Estoque e Análise de Dados
+`Python` `MongoDB` `PyMongo` `Power BI` · *projeto em grupo*
 
-**Python • MongoDB • PyMongo • Power BI**
+Gestão de produtos e estoque de uma loja de artigos de pesca: modelagem no MongoDB, back-end em Python com CRUD completo e dashboard no Power BI com estoque, demanda, mais vendidos e evolução das vendas.
 
-Projeto desenvolvido em grupo para gerenciamento de produtos e estoque de uma loja de artigos de pesca.
+### 🤖 [Atendimento com IA para Estúdio de Tatuagem](https://github.com/luuanvieira/chatbot-frontend)
+`Angular` `TypeScript` `Python` `OpenAI API` · *projeto em grupo*
 
-* Modelagem e implementação do banco de dados MongoDB
-* Desenvolvimento do back-end utilizando Python e PyMongo
-* Operações de cadastro, consulta, atualização e exclusão
-* Estruturação de dados de produtos, categorias, preços e estoque
-* Dashboard no Power BI para análise de indicadores
-* Visualização de estoque, demanda, produtos mais vendidos e evolução das vendas
+Chatbot que faz a triagem inicial dos clientes e indica o tatuador conforme a especialidade. Fui responsável pelo front-end em Angular e pela integração com o back-end e a API de IA.
 
----
+### 🔤 [Analisador Léxico e Sintático: linguagem Elgol](https://github.com/leonunes58/analisador-lexico-sintatico)
+`Python` `PLY (Lex-Yacc)` · *projeto em grupo, Compiladores*
 
-### 🤖 Atendimento com IA para Estúdio de Tatuagem
+Analisador para uma linguagem com regras próprias de identificadores, números e palavras reservadas, com tabela de símbolos, lista de tokens e testes com programas válidos e inválidos.
 
-**Angular • TypeScript • Python • OpenAI API**
+### 🧪 Laboratório Virtual de Química 3D (TCC)
+`Unity` `C#`
 
-Aplicação desenvolvida em grupo para automatizar o atendimento inicial de clientes.
-
-* Desenvolvimento do front-end utilizando Angular e TypeScript
-* Integração com back-end desenvolvido em Python
-* Integração com API de Inteligência Artificial
-* Triagem inicial das solicitações dos clientes
-* Indicação do profissional de acordo com a especialidade
-* Encaminhamento das solicitações para acompanhamento
+Simulador 3D em primeira pessoa para apoiar o ensino de Química em escolas com pouco acesso a laboratórios físicos, com interações com vidrarias e simulação de experimentos.
 
 ---
 
-### 🧪 Laboratório Virtual de Química 3D
+## Tecnologias
 
-**TCC • Unity • C#**
+**Backend:** Go · Python · FastAPI · APIs REST · Uber Fx
+**Dados:** SQL · PostgreSQL · MySQL · Oracle · MongoDB · Power BI · Databricks · PySpark · Pandas · NumPy
+**Infra:** Docker · Docker Compose · AWS SQS (LocalStack) · Keycloak · Git
+**IA:** OpenAI API · LLMs · integração de IA em aplicações
+**Front-end:** JavaScript · TypeScript · Angular · HTML · CSS
+**Outros:** C# · Unity
 
-Projeto individual desenvolvido como Trabalho de Conclusão de Curso.
-
-Um **simulador de laboratório virtual em 3D** criado para complementar o ensino de Química, principalmente em contextos com acesso limitado a laboratórios físicos.
-
-* Desenvolvimento utilizando Unity
-* Programação em C#
-* Modelagem do ambiente 3D
-* Sistema de movimentação em primeira pessoa
-* Desenvolvimento das interações com objetos
-* Simulação de conceitos e experimentos químicos
+<p>
+  <img src="https://skillicons.dev/icons?i=go,python,postgres,mysql,mongodb,docker,aws,fastapi,ts,angular,cs,unity,git" alt="Tecnologias">
+</p>
 
 ---
 
-### 🎾 Website de Tênis
+## No momento
 
-**HTML • CSS • JavaScript**
-
-Projeto desenvolvido durante estudos de desenvolvimento web, com foco na criação de interfaces, estruturação de páginas e aplicação de conceitos de front-end.
-
----
-
-## 🤖 Inteligência Artificial
-
-Tenho interesse em **Inteligência Artificial Generativa** e na aplicação de IA em sistemas e processos.
-
-* OpenAI API
-* LLMs
-* Inteligência Artificial Generativa
-* Integração de IA em aplicações
-* Automação de processos
-* Chatbots e atendimento automatizado
-
----
-
-## 📚 Atualmente estudando
-
-* 📊 Análise e manipulação de dados com Python
-* 🗄️ SQL e bancos de dados
-* 📈 Power BI
-* ☁️ Databricks e PySpa
+- 🔧 Aprofundando em Go e sistemas distribuídos (concorrência, mensageria, consistência)
+- 📊 Engenharia de dados com Databricks e PySpark
+- 🎓 Finalizando o TCC e o analisador da linguagem Elgol
