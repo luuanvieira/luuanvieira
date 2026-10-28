@@ -1,5 +1,19 @@
-<h1 align="center">Olá, eu sou o Luan Vieira 👋</h1>
+<div align="center">
 
+```
+██╗     ██╗   ██╗ █████╗ ███╗   ██╗   ██╗   ██╗██╗███████╗██╗██████╗  █████╗
+██║     ██║   ██║██╔══██╗████╗  ██║   ██║   ██║██║██╔════╝██║██╔══██╗██╔══██╗
+██║     ██║   ██║███████║██╔██╗ ██║   ██║   ██║██║█████╗  ██║██████╔╝███████║
+██║     ██║   ██║██╔══██║██║╚██╗██║   ╚██╗ ██╔╝██║██╔══╝  ██║██╔══██╗██╔══██║
+███████╗╚██████╔╝██║  ██║██║ ╚████║    ╚████╔╝ ██║███████╗██║██║  ██║██║  ██║
+╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝     ╚═══╝  ╚═╝╚══════╝╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
+```
+
+**Curso:** Ciência da Computação - La Salle  
+**Foco:** Dados · Banco de Dados · IA  
+**Estudando:** Full Stack · Python · JavaScript/TypeScript
+
+</div>
 <p align="center">
   <b>Backend & Dados</b> · Go · Python · SQL · PostgreSQL · MongoDB · IA<br>
   Estudante de Ciência da Computação (Universidade La Salle, 7º semestre) · Canoas/RS
