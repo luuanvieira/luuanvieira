@@ -9,17 +9,14 @@
 ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝     ╚═══╝  ╚═╝╚══════╝╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
 ```
 
-**Curso:** Ciência da Computação - La Salle  
-**Foco:** Dados · Banco de Dados · IA  
-**Estudando:** Full Stack · Python · JavaScript/TypeScript
+**Desenvolvedor Full Stack** com foco em **Backend, Dados e IA**  
+Ciência da Computação na Universidade La Salle (7º semestre) · Canoas/RS
 
 </div>
-<p align="center">
-  <b>Backend & Dados</b> · Go · Python · SQL · PostgreSQL · MongoDB · IA<br>
-  Estudante de Ciência da Computação (Universidade La Salle, 7º semestre) · Canoas/RS
-</p>
 
 <p align="center">
+  <!-- Troque o link abaixo pelo endereço do portfólio quando publicar na Vercel -->
+  <a href="https://SEU-PORTFOLIO.vercel.app"><img src="https://img.shields.io/badge/Portf%C3%B3lio-15181D?style=for-the-badge&logo=vercel&logoColor=FFC400" alt="Portfólio"></a>
   <a href="https://www.linkedin.com/in/luuanvieira/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:luuan.vieira@hotmail.com"><img src="https://img.shields.io/badge/E--mail-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="E-mail"></a>
 </p>
@@ -28,11 +25,11 @@
 
 ## Sobre mim
 
-Sou estudante de Ciência da Computação e trabalho com **desenvolvimento backend, bancos de dados e dados/IA**. Gosto de sistemas que precisam estar corretos: concorrência, consistência e integridade dos dados.
+Sou estudante de Ciência da Computação e desenvolvo **do banco de dados à interface**: APIs e serviços em Go, Python e Node.js, modelagem e consultas em PostgreSQL e MongoDB, e front-ends em Angular e React. Gosto de sistemas que precisam estar corretos: concorrência, consistência e integridade dos dados.
 
-Antes da tecnologia, trabalhei 6 anos na indústria (DuPont / IFF) como operador de processos, monitorando produção, usando SAP e tomando decisões com base em dados. Dessa experiência trouxe disciplina, atenção a processos e o hábito de investigar a causa dos problemas. Vários dos meus projetos nascem dela: monitoramento de processo, gestão de alarmes, OEE e rastreabilidade de lotes.
+Antes da tecnologia, trabalhei 6 anos na indústria (DuPont / IFF) como operador de processos, monitorando a produção por IHM, usando SAP e tomando decisões com base em dados. Dessa experiência trouxe disciplina, atenção a processos e o hábito de investigar a causa dos problemas. Vários dos meus projetos nascem dela: monitoramento de processo, gestão de alarmes, OEE e rastreabilidade de lotes. Hoje trabalho numa agência de streamers, onde também encontro problemas reais para resolver com código.
 
-**Busco minha primeira oportunidade como desenvolvedor (estágio ou júnior) em backend ou dados.**
+**Busco minha primeira oportunidade como desenvolvedor (estágio ou júnior) em backend, dados ou full stack.**
 
 ---
 
@@ -49,6 +46,17 @@ Serviço que movimenta carteiras de jogadores a partir de operações de provedo
 - **Transactional outbox** com publishers concorrentes e recuperação após crash
 - Autenticação OIDC com Keycloak e isolamento entre provedores
 - Testes de integração com infraestrutura real (sem mocks), `go test -race` e simulações de falha
+
+### 📊 [Painel da Agência](https://github.com/luuanvieira/painel-agencia): dashboard de hosts para agência de streamers
+`React` `Vite` `Recharts` `Node.js` `Express` `MongoDB` `Mongoose`
+
+A agência onde trabalho controlava os pagamentos semanais dos hosts (Alii e TikTok) em PDF e planilha. Criei um painel full stack que importa o relatório e transforma em informação para decidir.
+
+- **Leitura do PDF no servidor** (pdf.js), agrupando o texto por linha e validando cada registro
+- Gravação no **MongoDB Atlas** com índices únicos por plataforma, semana e host (reimportar não duplica)
+- Ranking, variação semana a semana, conversão de diamantes em dólar e **alertas automáticos**: sem live, salário perdido, pagamento a conferir e queda forte
+- Página de cada host com histórico, anotações e atalho para o WhatsApp
+- Demonstração com **dados fictícios** gerados por script Python, no mesmo formato do relatório real
 
 ### 🏭 [Monitor de Processo Industrial](https://github.com/luuanvieira/monitor-processo): gestão de alarmes em tempo real
 `Go` `PostgreSQL` `Server-Sent Events` `Prometheus` `Docker`
@@ -78,6 +86,16 @@ Banco de um ano de operação de uma fábrica (dados fictícios), com as regras 
 - **Rastreabilidade com CTE recursiva**: um lote de matéria-prima suspeito chega a 34 lotes e 11 clientes
 - OEE, Pareto de paradas, MTBF/MTTR, Cpk e *gaps and islands* com funções de janela e `range_agg`
 
+---
+
+## Projetos web
+
+| Projeto | O que é | Tecnologias |
+| --- | --- | --- |
+| 🎸 **[Cifrei](https://github.com/luuanvieira/cifrei)** | Site de cifras com transposição de tom, rolagem automática, favoritos e editor que converte cifras com acordes em cima da letra. Parser ChordPro em TypeScript puro. | Angular 20 · Signals · Reactive Forms |
+| 👟 **[Um Pé Sneaker Store](https://github.com/luuanvieira/um-pe-store)** | Loja virtual com carrinho, favoritos, filtros na URL, busca sem acento e cadastro com validação e máscaras. Começou em HTML/CSS/JS e foi reescrita em Angular. | Angular 19 · Signals · CSS |
+| 💀 **[Passione Tattoo Studio](https://github.com/luuanvieira/passione-tattoo)** | Site de estúdio de tatuagem com chat de agendamento por agente automatizado e painel interno de atendimentos com login. *(em grupo)* | Angular 19 · Tailwind · Python |
+
 ### Outros projetos
 
 - 📦 **Sistema de Estoque e Análise de Dados**: Python, MongoDB e Power BI para uma loja de artigos de pesca *(em grupo)*
@@ -88,15 +106,15 @@ Banco de um ano de operação de uma fábrica (dados fictícios), com as regras 
 
 ## Tecnologias
 
-- **Backend:** Go · Python · FastAPI · APIs REST · Uber Fx
-- **Dados:** SQL · PostgreSQL · PL/pgSQL · DuckDB · dbt · MySQL · Oracle · MongoDB · Power BI · Databricks · PySpark · Pandas
-- **Infra:** Docker · Docker Compose · GitHub Actions · AWS SQS (LocalStack) · Keycloak · Git
+- **Backend:** Go · Python · Node.js · Express · FastAPI · APIs REST · Uber Fx
+- **Dados:** SQL · PostgreSQL · PL/pgSQL · DuckDB · dbt · MySQL · Oracle · MongoDB · Mongoose · Power BI · Databricks · PySpark · Pandas
+- **Front-end:** TypeScript · JavaScript · Angular · React · Vite · Tailwind CSS · Recharts · HTML · CSS
+- **Infra:** Docker · Docker Compose · GitHub Actions · AWS SQS (LocalStack) · Keycloak · Vercel · Git
 - **IA:** OpenAI API · LLMs · integração de IA em aplicações
-- **Front-end:** JavaScript · TypeScript · Angular · HTML · CSS
 - **Outros:** C# · Unity
 
 <p>
-  <img src="https://skillicons.dev/icons?i=go,python,postgres,mysql,mongodb,docker,githubactions,aws,fastapi,ts,angular,cs,unity,git" alt="Tecnologias">
+  <img src="https://skillicons.dev/icons?i=go,python,nodejs,express,postgres,mysql,mongodb,docker,githubactions,aws,fastapi,ts,angular,react,vite,tailwind,cs,unity,git" alt="Tecnologias">
 </p>
 
 ---
@@ -105,4 +123,5 @@ Banco de um ano de operação de uma fábrica (dados fictícios), com as regras 
 
 - 🔧 Aprofundando em Go e sistemas distribuídos (concorrência, mensageria, consistência)
 - 📊 Engenharia de dados com dbt, Databricks e PySpark
+- 🚀 Publicando os projetos web na Vercel com demonstração online
 - 🎓 Finalizando o TCC e o analisador da linguagem Elgol
