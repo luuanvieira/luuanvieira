@@ -47,7 +47,7 @@ Serviço que movimenta carteiras de jogadores a partir de operações de provedo
 - Autenticação OIDC com Keycloak e isolamento entre provedores
 - Testes de integração com infraestrutura real (sem mocks), `go test -race` e simulações de falha
 
-### 📊 [Painel da Agência](https://github.com/luuanvieira/painel-agencia): dashboard de hosts para agência de streamers
+### 📊 [Painel da Agência](https://github.com/luuanvieira/agencia-web): dashboard de hosts para agência de streamers
 `React` `Vite` `Recharts` `Node.js` `Express` `MongoDB` `Mongoose`
 
 A agência onde trabalho controlava os pagamentos semanais dos hosts (Alii e TikTok) em PDF e planilha. Criei um painel full stack que importa o relatório e transforma em informação para decidir.
@@ -92,8 +92,9 @@ Banco de um ano de operação de uma fábrica (dados fictícios), com as regras 
 
 | Projeto | O que é | Tecnologias |
 | --- | --- | --- |
-| 🎸 **[Cifrei](https://github.com/luuanvieira/cifrei)** | Site de cifras com transposição de tom, rolagem automática, favoritos e editor que converte cifras com acordes em cima da letra. Parser ChordPro em TypeScript puro. | Angular 20 · Signals · Reactive Forms |
+| 🎸 **[Cifrei](https://github.com/luuanvieira/cifras)** | Site de cifras com transposição de tom, rolagem automática, favoritos e editor que converte cifras com acordes em cima da letra. Parser ChordPro em TypeScript puro. | Angular 20 · Signals · Reactive Forms |
 | 👟 **[Um Pé Sneaker Store](https://github.com/luuanvieira/um-pe-store)** | Loja virtual com carrinho, favoritos, filtros na URL, busca sem acento e cadastro com validação e máscaras. Começou em HTML/CSS/JS e foi reescrita em Angular. | Angular 19 · Signals · CSS |
+| 🐾 **[Adota Patas](https://github.com/luuanvieira/adota-patas-angular)** | Site de adoção de cães e gatos com várias páginas, refeito em Angular com Tailwind. | Angular · Tailwind CSS |
 | 💀 **[Passione Tattoo Studio](https://github.com/luuanvieira/passione-tattoo)** | Site de estúdio de tatuagem com chat de agendamento por agente automatizado e painel interno de atendimentos com login. *(em grupo)* | Angular 19 · Tailwind · Python |
 
 ### Outros projetos
