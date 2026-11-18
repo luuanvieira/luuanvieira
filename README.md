@@ -11,7 +11,6 @@
 
 **Desenvolvedor Full Stack** com foco em **Backend, Dados e IA**  
 Ciência da Computação na Universidade La Salle (7º semestre) · Canoas/RS  
-🌐 **[luanvieira.vercel.app](https://luanvieira.vercel.app)**
 
 </div>
 
