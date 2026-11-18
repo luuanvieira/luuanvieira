@@ -10,13 +10,13 @@
 ```
 
 **Desenvolvedor Full Stack** com foco em **Backend, Dados e IA**  
-Ciência da Computação na Universidade La Salle (7º semestre) · Canoas/RS
+Ciência da Computação na Universidade La Salle (7º semestre) · Canoas/RS  
+🌐 **[luanvieira.vercel.app](https://luanvieira.vercel.app)**
 
 </div>
 
 <p align="center">
-  <!-- Troque o link abaixo pelo endereço do portfólio quando publicar na Vercel -->
-  <a href="https://SEU-PORTFOLIO.vercel.app"><img src="https://img.shields.io/badge/Portf%C3%B3lio-15181D?style=for-the-badge&logo=vercel&logoColor=FFC400" alt="Portfólio"></a>
+  <a href="https://luanvieira.vercel.app"><img src="https://img.shields.io/badge/Portf%C3%B3lio-15181D?style=for-the-badge&logo=vercel&logoColor=FFC400" alt="Portfólio"></a>
   <a href="https://www.linkedin.com/in/luuanvieira/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:luuan.vieira@hotmail.com"><img src="https://img.shields.io/badge/E--mail-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="E-mail"></a>
 </p>
@@ -90,12 +90,12 @@ Banco de um ano de operação de uma fábrica (dados fictícios), com as regras 
 
 ## Projetos web
 
-| Projeto | O que é | Tecnologias |
-| --- | --- | --- |
-| 🎸 **[Cifrei](https://github.com/luuanvieira/cifras)** | Site de cifras com transposição de tom, rolagem automática, favoritos e editor que converte cifras com acordes em cima da letra. Parser ChordPro em TypeScript puro. | Angular 20 · Signals · Reactive Forms |
-| 👟 **[Um Pé Sneaker Store](https://github.com/luuanvieira/um-pe-store)** | Loja virtual com carrinho, favoritos, filtros na URL, busca sem acento e cadastro com validação e máscaras. Começou em HTML/CSS/JS e foi reescrita em Angular. | Angular 19 · Signals · CSS |
-| 🐾 **[Adota Patas](https://github.com/luuanvieira/adota-patas-angular)** | Site de adoção de cães e gatos com várias páginas, refeito em Angular com Tailwind. | Angular · Tailwind CSS |
-| 💀 **[Passione Tattoo Studio](https://github.com/luuanvieira/passione-tattoo)** | Site de estúdio de tatuagem com chat de agendamento por agente automatizado e painel interno de atendimentos com login. *(em grupo)* | Angular 19 · Tailwind · Python |
+| Projeto | O que é | Tecnologias | Online |
+| --- | --- | --- | --- |
+| 🎸 **[Cifrei](https://github.com/luuanvieira/cifras)** | Site de cifras com transposição de tom, rolagem automática, favoritos e editor que converte cifras com acordes em cima da letra. Parser ChordPro em TypeScript puro. | Angular 20 · Signals · Reactive Forms | [Abrir](https://cifrei-luanvieira.vercel.app) |
+| 👟 **[Um Pé Sneaker Store](https://github.com/luuanvieira/um-pe-store)** | Loja virtual com carrinho, favoritos, filtros na URL, busca sem acento e cadastro com validação e máscaras. Começou em HTML/CSS/JS e foi reescrita em Angular. | Angular 19 · Signals · CSS | [Abrir](https://um-pe-store.vercel.app) |
+| 🐾 **[Adota Patas](https://github.com/luuanvieira/adota-patas-angular)** | Site de adoção de cães e gatos com várias páginas, refeito em Angular com Tailwind. | Angular · Tailwind CSS | |
+| 💀 **[Passione Tattoo Studio](https://github.com/luuanvieira/passione-tattoo)** | Site de estúdio de tatuagem com chat de agendamento por agente automatizado e painel interno de atendimentos com login. *(em grupo)* | Angular 19 · Tailwind · Python | [Abrir](https://passione-tattoo.vercel.app) |
 
 ### Outros projetos
 
@@ -124,5 +124,5 @@ Banco de um ano de operação de uma fábrica (dados fictícios), com as regras 
 
 - 🔧 Aprofundando em Go e sistemas distribuídos (concorrência, mensageria, consistência)
 - 📊 Engenharia de dados com dbt, Databricks e PySpark
-- 🚀 Publicando os projetos web na Vercel com demonstração online
+- 🚀 Portfólio e projetos web publicados na Vercel: [luanvieira.vercel.app](https://luanvieira.vercel.app)
 - 🎓 Finalizando o TCC e o analisador da linguagem Elgol
